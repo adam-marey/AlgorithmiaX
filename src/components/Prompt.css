@@ -1,0 +1,44 @@
+/* PairSumPrompt.css */
+.prompt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.prompt-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin-right: 1rem;
+}
+
+.solution-button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.solution-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.code-editor-wrapper {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.code-editor-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}

@@ -1,0 +1,49 @@
+/* CodeEditor.css */
+.code-editor-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.code-editor-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.code-editor-controls label {
+  margin-right: 10px;
+}
+
+.run-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.code-editor-wrapper {
+  flex: 1;
+}
+
+.code-editor-output {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.code-editor-output h2 {
+  margin-bottom: 10px;
+}
+
+.code-editor-output pre {
+  margin: 0;
+}

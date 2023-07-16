@@ -1,0 +1,17 @@
+/* src/Section.css */
+.section {
+  margin: 2rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.section-content {
+  margin-left: 1rem;
+}
