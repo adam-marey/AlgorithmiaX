@@ -11,7 +11,7 @@ import 'codemirror/addon/hint/xml-hint';
 import 'codemirror/addon/hint/sql-hint';
 import 'codemirror/addon/hint/anyword-hint';
 import 'codemirror/addon/hint/show-hint.css';
-import { toast, Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 import './CodeEditor.css';
 
 const CodeEditor = () => {
@@ -93,7 +93,7 @@ const CodeEditor = () => {
         workerRef.current.terminate();
       };
     },
-    [theme]
+    [theme, code]
   );
 
   const handleRunCode = () => {
