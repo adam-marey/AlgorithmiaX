@@ -127,7 +127,12 @@ const CodeEditor = () => {
         </button>
       </div>
       <div className="code-editor-wrapper">
-        <textarea ref={codeMirrorRef} value={code} onChange={() => {}} />
+        <textarea
+          className="text-area"
+          ref={codeMirrorRef}
+          value={code}
+          onChange={() => {}}
+        />
       </div>
       {output &&
         <div className="code-editor-output">

@@ -1,8 +1,10 @@
 /* CodeEditor.css */
+/* change the width and height */
 .code-editor-container {
   display: flex;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 700px;
+  height: 700; /* Increase the height as per your requirement */
   margin: 0 auto;
   padding: 20px;
   background-color: #f8f8f8;
@@ -31,8 +33,12 @@
 
 .code-editor-wrapper {
   flex: 1;
+  height: 100%;
 }
 
+.code-editor-wrapper .CodeMirror {
+  height: 100%;
+}
 .code-editor-output {
   background-color: #f0f0f0;
   padding: 20px;
