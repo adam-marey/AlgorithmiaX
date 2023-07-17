@@ -1,4 +1,3 @@
-// PairSumPrompt.js
 import React, { useState } from 'react';
 import CodeBlock from '../CodeBlock';
 import Section from '../Section';
